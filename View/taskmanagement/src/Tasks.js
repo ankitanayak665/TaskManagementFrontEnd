@@ -332,7 +332,7 @@ function Tasks() {
       {(provided)=>(
           <Box sx={{display:"flex",flexDirection:"column",padding:"5px",height:"100%"}}  ref={provided.innerRef}{...provided.droppableProps}>
           <Box sx={{mt:"5px",height:"30px",backgroundColor:"blue",display:"flex",alignItems:"center"}}>
-              <Typography sx={{fontSize:"14px",ml:"10px",fontWeight:"bold",color:"white"}} variant="h5">IN PROGRESS</Typography>
+              <Typography sx={{fontSize:"14px",ml:"10px",fontWeight:"bold",color:"white"}} variant="h5">COMPLETED</Typography>
           </Box>
         
           <Box sx={{p:"5px"}}>
